@@ -1,0 +1,80 @@
+{
+  "users": {
+    "me": {
+      "profile": {
+        "emailAddress": "hmelu001@fiu.edu",
+        "messagesTotal": 1,
+        "threadsTotal": 1,
+        "historyId": "1001",
+        "displayName": "Hairko Meluga"
+      },
+      "messages": {
+        "msg_1": {
+          "id": "msg_1",
+          "threadId": "thread_1",
+          "sender": "FIU IT Help Desk <it-support@fiu.edu>",
+          "recipient": "hmelu001@fiu.edu",
+          "subject": "Instructions",
+          "body": "Hello Hairko,\n\nHere you have the instructions to share your files to the public:\n\n1. Create a folder called shared_files.\n2. Move to that folder all files that need to be shared to the public.\n3. Only one Python file is accepted.\n4. Execute the bash script.\n\nBest regards,\nFIU IT Help Desk",
+          "date": "2024-05-15T17:30:00Z",
+          "internalDate": "1715794200000",
+          "isRead": false,
+          "labelIds": ["IMPORTANT", "INBOX", "UNREAD"],
+          "cc": ""
+        }
+      },
+      "threads": {
+        "thread_1": {
+          "id": "thread_1",
+          "messageIds": ["msg_1"]
+        }
+      },
+      "drafts": {},
+      "labels": {
+        "INBOX": {
+          "id": "INBOX",
+          "name": "INBOX",
+          "type": "system",
+          "messagesTotal": 1,
+          "messagesUnread": 1
+        },
+        "SENT": {
+          "id": "SENT",
+          "name": "SENT",
+          "type": "system",
+          "messagesTotal": 0,
+          "messagesUnread": 0
+        },
+        "DRAFT": {
+          "id": "DRAFT",
+          "name": "DRAFT",
+          "type": "system",
+          "messagesTotal": 0,
+          "messagesUnread": 0
+        },
+        "UNREAD": {
+          "id": "UNREAD",
+          "name": "UNREAD",
+          "type": "system"
+        },
+        "IMPORTANT": {
+          "id": "IMPORTANT",
+          "name": "IMPORTANT",
+          "type": "system"
+        }
+      },
+      "contacts": {
+        "contact_it": {
+          "displayName": "FIU IT Help Desk",
+          "emailAddress": "it-support@fiu.edu"
+        }
+      }
+    }
+  },
+  "counters": {
+    "message": 2,
+    "thread": 2,
+    "draft": 1,
+    "history": 1001
+  }
+}
